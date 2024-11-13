@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+
+
+/* Carousel or slider */
+#carousel {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+.active {
+    background-color: #aaa;
+}
+
+
+form {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Game list section */
+.game-list {
+    list-style: none;
+    padding: 0;
+}
+
+.game-list li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.game-list li:hover {
+    transform: translateY(-5px);
+}
+
+.game-list img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.game-list h3 {
+    font-size: 1.5em;
+}
+
+.game-list a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    background-color: #ff9800;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.game-list a:hover {
+    background-color: #e68900;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Shared Styles for Review and News Lists */
+.review-list, .news-list {
+    list-style: none;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Margin and padding for individual game review items */
+.review-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; /* Center-aligns the review section */
+    padding: 0;
+}
+
+.review-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Ensures ample space between reviews */
+    transition: transform 0.3s ease;
+}
+
+.review-list li:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;              
+    max-width: 300px;         
+    height: auto;             
+    border-radius: 5px;      
+    margin-bottom: 15px;
+    object-fit: cover;      
+}

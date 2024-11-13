@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+
+
+/* Carousel or slider */
+#carousel {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+.active {
+    background-color: #aaa;
+}
+
+
+form {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Game list section */
+.game-list {
+    list-style: none;
+    padding: 0;
+}
+
+.game-list li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.game-list li:hover {
+    transform: translateY(-5px);
+}
+
+.game-list img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.game-list h3 {
+    font-size: 1.5em;
+}
+
+.game-list a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.game-list a:hover {
+    background-color: #555;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Shared Styles for Review and News Lists */
+.review-list, .news-list {
+    list-style: none;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Margin and padding for individual game review items */
+.review-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; /* Center-aligns the review section */
+    padding: 0;
+}
+
+.review-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Ensures ample space between reviews */
+    transition: transform 0.3s ease;
+}
+
+.review-list li:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;              
+    max-width: 300px;         
+    height: auto;             
+    border-radius: 5px;      
+    margin-bottom: 15px;
+    object-fit: cover;      
+}
+
+/* About page styles */
+.about-intro, .mission, .our-story, .team {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.team-member p{
+    align-items: center;
+}
+
+
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+/* Contact Page Styles */
+.contact-intro, .contact-form, .social-media {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Social Media Links */
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-media a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #e68900;
+}
+/* Logo styles */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;  /* Accent color for visibility */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: white; /* Dark background to make text pop */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px; /* Space around the content */
+    margin-bottom: 20px; /* Spacing from the rest of the content */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+    font-size: 2.5em; /* Larger font size for impact */
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ff9800; /* Accent color for the subtitle */
+}
